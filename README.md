@@ -20,17 +20,14 @@ Plotamos 4 gráficos comparativos para avaliar o desempenho financeiro, volume d
 Com base na análise quantitativa de todos os KPIs, a planta de Mumbai é a mais recomendada para receber os investimentos de expansão.
 
 ## 📊 Justificativa Baseada nos Dados
-**1. Líder em Rentabilidade (Lucro Líquido):**Mumbai gerou o maior Lucro Líquido total entre todas as praças, acumulando **R$ 128.331,50**.
+**1. Líder em Rentabilidade (Lucro Líquido):** Mumbai gerou o maior Lucro Líquido total entre todas as praças, acumulando **R$ 128.331,50**.
 Ela supera Kolkata (**R$ 124.795,81**) e fica muito à frente de Delhi (**R$ 72.804,13**).
 
-**2. Melhor Controle e Giro de Estoque (Eficiência Logística):**
-Mumbai possui o maior **Índice de Giro de Estoque (222.50)**. Isso demonstra que a planta de Mumbai é extremamente ágil e eficiente em vender o que armazena, minimizando desperdícios e custos de estocagem de produtos parados.
+**2. Melhor Controle e Giro de Estoque (Eficiência Logística):** Mumbai possui o maior **Índice de Giro de Estoque (222.50)**. Isso demonstra que a planta de Mumbai é extremamente ágil e eficiente em vender o que armazena, minimizando desperdícios e custos de estocagem de produtos parados.
 
-**3. Custo Operacional Altamente Competitivo:**
-Mumbai possui o **menor custo médio de manufatura por item (R$ 36,73)** comparado a todas as outras plantas. Isso significa que expandir a produção em Mumbai é financeiramente mais barato e gera margens de lucro unitárias melhores.
+**3. Custo Operacional Altamente Competitivo:** Mumbai possui o **menor custo médio de manufatura por item (R$ 36,73)** comparado a todas as outras plantas. Isso significa que expandir a produção em Mumbai é financeiramente mais barato e gera margens de lucro unitárias melhores.
 
-**4. Excelente Penetração de Mercado:**
-É a segunda maior planta em volume absoluto de vendas (**9.426 unidades**), demonstrando que já possui canais de escoamento e demanda consolidados para absorver um aumento de capacidade produtiva.
+**4. Excelente Penetração de Mercado:** É a segunda maior planta em volume absoluto de vendas (**9.426 unidades**), demonstrando que já possui canais de escoamento e demanda consolidados para absorver um aumento de capacidade produtiva.
 
 ## 📈 Resumo do Ranking de Decisão
 **1º Lugar (Recomendado):** Mumbai (Maior Lucro, Maior Giro de Estoque, Menor Custo de Fabricação).
