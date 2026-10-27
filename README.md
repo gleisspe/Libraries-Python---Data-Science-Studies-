@@ -1,30 +1,43 @@
 **PT-BR Portuguese**
-Relatório de Análise para Investimento e Expansão
+
+# Relatório de Análise para Investimento e Expansão
 Este documento apresenta o passo a passo da análise de dados de Cadeia de Suprimentos (Supply Chain) para subsidiar a decisão estratégica de qual planta/cidade deve receber os recursos de expansão e investimentos.
 
-🛠️ Passo a Passo da Análise no Código
-Preparação dos Dados de Lucro Líquido:
-Criamos uma nova métrica financeira (Profit) calculando a diferença direta entre a receita gerada (Revenue generated) e os custos totais associados (Costs).
-Agrupamento Estratégico (groupby por Location):
+## 🛠️ Passo a Passo da Análise no Código
+**Preparação dos Dados de Lucro Líquido:**
+Criamos uma nova métrica financeira (`Profit`) calculando a diferença direta entre a receita gerada (`Revenue generated`) e os custos totais associados (`Costs`).
+
+**Agrupamento Estratégico (`groupby` por Location):**
 Consolidamos as informações essenciais de cada planta: Lucro Total, Receita Total, Volume Total de Produtos Vendidos, Nível Médio de Estoque e o Custo Médio de Manufatura por item.
-Criação do Índice de Giro de Estoque:
-Criamos a métrica Stock_Turnover_Index que divide o Volume de Vendas pelo Nível de Estoque Médio. Isso mede a eficiência logística: quanto maior o índice, mais rápido o estoque gira, evitando capital de giro paralisado.
-Visualização de Resultados (KPIs):
+
+**Criação do Índice de Giro de Estoque:**
+Criamos a métrica `Stock_Turnover_Index`, que divide o Volume de Vendas pelo Nível de Estoque Médio. Isso mede a eficiência logística: quanto maior o índice, mais rápido o estoque gira, evitando capital de giro paralisado.
+
+**Visualização de Resultados (KPIs):**
 Plotamos 4 gráficos comparativos para avaliar o desempenho financeiro, volume de mercado, eficiência de estoque e custos de fabricação de cada planta.
-🏆 A Planta Vencedora: Mumbai 🌟
+
+## 🏆 A Planta Vencedora: Mumbai
 Com base na análise quantitativa de todos os KPIs, a planta de Mumbai é a mais recomendada para receber os investimentos de expansão.
 
-📊 Justificativa Baseada nos Dados:
-Líder em Rentabilidade (Lucro Líquido):
-Mumbai gerou o maior Lucro Líquido total entre todas as praças, acumulando R 128.331,50∗∗.ElasuperaKolkata(R  124.795,81) e fica muito à frente de Delhi (R 72.804,13).2.∗∗MelhorControleeGirodeEstoque(EficiênciaLogística):∗∗∗Mumbaipossuiomaior∗∗ÍndicedeGirodeEstoque(222.50)∗∗.IssoprovaqueaplantadeMumbaiéextremamenteágileeficienteemvenderoquearmazena,minimizandodesperdíciosecustosdeestocagemdeprodutosparados.3.∗∗CustoOperacionalAltamenteCompetitivo:∗∗∗Mumbaipossuio∗∗menorcustomédiodemanufaturaporitem(R  36,73) comparado a todas as outras plantas. Isso significa que expandir a produção em Mumbai é financeiramente mais barato e gera margens de lucro unitárias melhores.
-Excelente Penetração de Mercado:
-É a segunda maior planta em volume absoluto de vendas (9.426 unidades), demonstrando que já possui canais de escoamento e demanda consolidados para absorver um aumento de capacidade produtiva.
-📈 Resumo do Ranking de Decisão:
-1º Lugar (Recomendado): Mumbai (Maior Lucro, Maior Giro de Estoque, Menor Custo de Fabricação).
-2º Lugar (Alternativa): Kolkata (Excelente volume de vendas e lucro, mas custo de fabricação ligeiramente superior ao de Mumbai).
-3º Lugar: Chennai (Desempenho intermediário estável).
-4º Lugar: Bangalore (Giro de estoque muito baixo e custos de fabricação elevados).
-5º Lugar: Delhi (Menor lucro líquido gerado e baixa eficiência relativa de estoque).
+## 📊 Justificativa Baseada nos Dados
+**1. Líder em Rentabilidade (Lucro Líquido):**Mumbai gerou o maior Lucro Líquido total entre todas as praças, acumulando **R$ 128.331,50**.
+Ela supera Kolkata (**R$ 124.795,81**) e fica muito à frente de Delhi (**R$ 72.804,13**).
+
+**2. Melhor Controle e Giro de Estoque (Eficiência Logística):**
+Mumbai possui o maior **Índice de Giro de Estoque (222.50)**. Isso demonstra que a planta de Mumbai é extremamente ágil e eficiente em vender o que armazena, minimizando desperdícios e custos de estocagem de produtos parados.
+
+**3. Custo Operacional Altamente Competitivo:**
+Mumbai possui o **menor custo médio de manufatura por item (R$ 36,73)** comparado a todas as outras plantas. Isso significa que expandir a produção em Mumbai é financeiramente mais barato e gera margens de lucro unitárias melhores.
+
+**4. Excelente Penetração de Mercado:**
+É a segunda maior planta em volume absoluto de vendas (**9.426 unidades**), demonstrando que já possui canais de escoamento e demanda consolidados para absorver um aumento de capacidade produtiva.
+
+## 📈 Resumo do Ranking de Decisão
+**1º Lugar (Recomendado):** Mumbai (Maior Lucro, Maior Giro de Estoque, Menor Custo de Fabricação).
+**2º Lugar (Alternativa):** Kolkata (Excelente volume de vendas e lucro, mas custo de fabricação ligeiramente superior ao de Mumbai).
+**3º Lugar:** Chennai (Desempenho intermediário estável).
+**4º Lugar:** Bangalore (Giro de estoque muito baixo e custos de fabricação elevados).
+**5º Lugar:** Delhi (Menor lucro líquido gerado e baixa eficiência relativa de estoque).
 
 **EN English**
 
